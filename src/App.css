@@ -1,0 +1,9 @@
+body {
+    overflow: auto;
+  }
+  
+  body::-webkit-scrollbar {
+    display: none; 
+  }
+ 
+  
