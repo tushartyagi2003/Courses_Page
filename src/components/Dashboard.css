@@ -1,0 +1,14 @@
+.checkbox{
+    margin: 20px;
+    font-size: 26px;
+    display: flex;
+    gap: 20px;
+}
+
+
+.checkbox input[type="checkbox"] {
+    width: 20px;  /* Set width */
+    height: 20px; /* Set height */
+    transform: scale(1.5); /* Scale it up */
+    cursor: pointer;  /* Optional: changes cursor to a pointer */
+  }

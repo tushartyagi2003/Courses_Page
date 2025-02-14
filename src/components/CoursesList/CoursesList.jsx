@@ -32,6 +32,7 @@ const CoursesList = () => {
   );
 
 
+
   const navigate = useNavigate();
   const ShowDetails = (courseId) => {
     navigate(`/CourseDetails/${courseId}`); // Pass courseId for dynamic routing (optional)
@@ -40,7 +41,7 @@ const CoursesList = () => {
   return (
     <>
       <div className="app-container">
-        {/* <DashboardwithNavbar /> */}
+      <h1>{<DashboardwithNavbar/>}</h1>
         <div className="search-section">
           <h1>Course List</h1>
           <input
@@ -77,6 +78,8 @@ const CoursesList = () => {
             </div>
           ))}
         </div>
+
+        
       </div>
     </>
   );
