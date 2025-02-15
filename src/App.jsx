@@ -8,7 +8,9 @@ import CourseDetails from "./components/CourseDetails";
 import Dashboard from "./components/Dashboard";
 
 function App() {
-  return (
+  return ( <>
+
+    <h1 style={{alignItems: 'center', backgroundColor: 'wheat', padding:'15px'}}>Github Code : <a href="https://github.com/tushartyagi2003/Courses_Page">Click Here of Code</a>   </h1>
     <Router>
       <Routes>
         <Route path="/" element={<CoursesList />} />
@@ -18,6 +20,7 @@ function App() {
         <Route path="/CourseDetails/:courseId" element={<CourseDetails />} />
       </Routes>
     </Router>
+    </>
   );
 }
 
